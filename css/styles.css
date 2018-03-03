@@ -33,8 +33,8 @@ body {
 }
 #nav-list a {
   color: #951C49;
-  padding-left: 40vw;
-  text-align: left;
+  /* padding-left: 40vw ;
+  text-align: left;*/
   }
 
 #nav-list a:hover {
