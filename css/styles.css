@@ -33,9 +33,7 @@ body {
 }
 #nav-list a {
   color: #951C49;
-  padding-left:  37vw ;
-  padding-right: 20vw;
-  text-align: left;
+  text-align: center;
   }
 
 #nav-list a:hover {
