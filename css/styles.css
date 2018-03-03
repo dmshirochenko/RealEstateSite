@@ -73,7 +73,24 @@ body {
 
 #text_section {
 	text-align: left;
-	margin: 10px;
+	margin: 40px;
 	padding: 10px;
 	background-color: #777774;
+}
+
+.section_footer {
+	font-family: 'Lora', serif;
+	color: #342dc4;
+	text-align: center;
+	padding: 15px;
+	background-color: #ccd61b;
+	border: 1px solid #777774;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+		
+}
+
+.section_footer a:hover, .navbar-brand a:focus {
+	text-decoration: none;
 }
