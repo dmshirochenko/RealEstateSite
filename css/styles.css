@@ -1,20 +1,20 @@
 body {
 	font-size: 16px;
-	color: #fff;
-	background-color: #0d7246;
+	color: #0b315b;
+	background-color: white;
 	font-family: "Oxigen", sans-serif;
 	/* padding-top: 70px; */
 }
 
 #header-nav {
-	background-color: #ccd61b;
+	background-color: #4174ad;
 	border-radius: 0;
 	border: 0;
 }
 
 .navbar-brand h1{
 	font-family: 'Lora', serif;
-	color: #342dc4;
+	color: white;
 	font-size: 1.5em;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -32,11 +32,11 @@ body {
   
 }
 #nav-list a {
-  color: #951C49;
+  color: white;
   }
 
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #1e5799;
 }
 #nav-list a span {
   font-size: 1em;
@@ -74,7 +74,7 @@ body {
 	text-align: left;
 	margin: 20px;
 	padding: 10px;
-	background-color: #777774;
+	background-color: #d2e1f2;
 }
 
 .section_footer {
