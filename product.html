@@ -85,15 +85,22 @@
   <div id="main-content" class="container-fluid" >
     <!-- Header -->
     <div class="text-center">
-      <h1 id="menu_header">Main Page (HomePage Tag)</h1>
+      <h1 id="menu_header">Product page (Product Tag)</h1>
     </div>
     
+    <div id="menu-tiles" class="row">
+    <p id="text_section">
+      <br> Ванна акриловая прямоугольная Roca Uno 170х75, ZRU9302870 Product ID = 300823
+      <br> <img width="200" height="200" src="https://tesser.ru/static/catalog/product/300823/main.jpg">
+    </p>
+    </div>
+
     <!-- Main article-->
     <div id="menu-tiles" class="row">
       <div id="main_section" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <p id="text_section">
           Building description!!!
-          <br> HomePageTag:
+          <br> Product:
           <br> &lt;script type=&quot;text/javascript&quot; src=&quot;//static.criteo.net/js/ld/ld.js&quot; async=&quot;true&quot;&gt;&lt;/script&gt;
           <br>&lt;script type=&quot;text/javascript&quot;&gt;
           <br>window.criteo_q = window.criteo_q || [];
@@ -102,7 +109,8 @@
            <br>{ event: &quot;setAccount&quot;, account: PARTNER_ID}, // You should never update this line
            <br>{ event: &quot;setEmail&quot;, email: &quot;##Email Address of user##&quot; }, // Can be an empty string 
            <br>{ event: &quot;setSiteType&quot;, type: deviceType},
-           <br>{ event: &quot;viewHome&quot;});
+           <br> { event: &quot;viewItem&quot;, item: &quot;Your item id&quot; }
+           );
            <br>&lt;/script&gt;
         </p>
     </div>  <!-- End of the main sections -->    
